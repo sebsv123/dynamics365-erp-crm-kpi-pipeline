@@ -4,6 +4,27 @@
 
 ---
 
+## Quick Links
+
+| What | Link |
+|---|---|
+| 🗂️ **Repository root** | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/tree/copilot/improve-repo-structure |
+| 📓 **Quickstart notebook** (rendered) | https://nbviewer.org/github/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/notebooks/00_Quickstart.ipynb |
+| 📓 **SLA Risk model notebook** (rendered) | https://nbviewer.org/github/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/notebooks/01_Model_SLA_Risk.ipynb |
+| 🐍 `src/generate_data.py` | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/src/generate_data.py |
+| 🐍 `src/etl.py` | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/src/etl.py |
+| 🐍 `src/kpis.py` | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/src/kpis.py |
+| 🐍 `src/model.py` | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/src/model.py |
+| 🐍 `src/plots.py` | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/src/plots.py |
+| 🐍 `src/d365_connector_template.py` | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/src/d365_connector_template.py |
+| 📊 `outputs/kpi_table.csv` | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/outputs/kpi_table.csv |
+| 📊 `outputs/model_metrics.json` | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/outputs/model_metrics.json |
+| 🖼️ SLA breach chart | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/outputs/sla_breach_by_priority.png |
+| 🖼️ Opportunities chart | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/outputs/opportunities_by_stage.png |
+| 📋 Demo checklist | https://github.com/sebsv123/dynamics365-erp-crm-kpi-pipeline/blob/copilot/improve-repo-structure/docs/demo_checklist.md |
+
+---
+
 ## Why this matches a Dynamics 365 internship
 
 - **Real entity model** — Account, Opportunity (Sales), Case + SLA/CSAT (Customer Service), Work Order (Field Service) mirror the actual Dynamics 365 modules.
