@@ -12,7 +12,7 @@ import pandas as pd
 from pathlib import Path
 from sklearn.model_selection import train_test_split
 from sklearn.compose import ColumnTransformer
-from sklearn.preprocessing import OneHotEncoder
+from sklearn.preprocessing import OneHotEncoder, StandardScaler
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import (
     roc_auc_score,
@@ -48,11 +48,11 @@ def main() -> None:
     pre = ColumnTransformer(
         transformers=[
             ("cat", OneHotEncoder(handle_unknown="ignore"), cat_cols),
-            ("num", "passthrough", num_cols),
+            ("num", StandardScaler(), num_cols),
         ]
     )
 
-    clf = LogisticRegression(max_iter=500, class_weight="balanced")
+    clf = LogisticRegression(max_iter=1000, class_weight="balanced")
     pipe = Pipeline([("pre", pre), ("clf", clf)])
 
     X_train, X_test, y_train, y_test = train_test_split(

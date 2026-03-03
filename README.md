@@ -34,6 +34,19 @@
 
 ---
 
+## CRM Glossary
+
+| Term | What it means in Dynamics 365 |
+|---|---|
+| **Account** | A company or organisation — the master record that links all other entities (Opportunities, Cases, Work Orders). |
+| **Opportunity** | A potential sale tracked through pipeline stages: Lead → Qualify → Propose → Negotiate → Closed Won / Closed Lost. |
+| **Case** | A customer-service ticket (incident). Each Case has a priority that determines its **SLA** target resolution window. |
+| **SLA** | Service Level Agreement — the maximum time allowed to resolve a Case (e.g. 8 h for Critical, 72 h for Low priority). A breach occurs when `resolution_hours > sla_hours`. |
+| **CSAT** | Customer Satisfaction score (1–5) collected after Case resolution — a key metric in Dynamics 365 Customer Service. |
+| **Work Order** | A Field Service job dispatched to a technician (e.g. Preventive maintenance, Corrective repair, Installation). |
+
+---
+
 ## Repo structure
 
 ```
