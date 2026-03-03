@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+.venv/
+venv/
+env/
+
+data/raw/
+data/processed/
+
+# Keep PNGs for README, ignore heavier generated artifacts
+outputs/*.pdf
+outputs/*.parquet
+outputs/*.pkl
+outputs/*.joblib
+
+.DS_Store
+Thumbs.db

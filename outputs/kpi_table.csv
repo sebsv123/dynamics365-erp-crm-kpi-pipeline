@@ -1,0 +1,13 @@
+metric,value
+support_total_cases,2200.0
+support_sla_compliance_rate,0.8041
+support_avg_resolution_hours,24.77
+support_avg_csat,4.25
+support_sla_breach_rate_critical,0.7617
+support_sla_breach_rate_high,0.3478
+support_sla_breach_rate_medium,0.101
+support_sla_breach_rate_low,0.0431
+sales_closed_won,161.0
+sales_closed_lost,160.0
+sales_win_rate,0.5016
+sales_open_pipeline_value_eur,16980757.14
