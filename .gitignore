@@ -1,23 +1,19 @@
-# Python
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
 
-# Virtual envs
 .venv/
 venv/
 env/
 
-# Generated data (reproducible via scripts)
 data/raw/
 data/processed/
 
-# Generated outputs – keep PNGs tracked for README, ignore heavy binary outputs
+# Keep PNGs for README, ignore heavier generated artifacts
 outputs/*.pdf
 outputs/*.parquet
 outputs/*.pkl
 outputs/*.joblib
 
-# OS
 .DS_Store
 Thumbs.db
